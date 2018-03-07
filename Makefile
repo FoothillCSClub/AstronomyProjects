@@ -1,0 +1,3 @@
+
+IDEAS.html: IDEAS
+	markdown $^ > $@

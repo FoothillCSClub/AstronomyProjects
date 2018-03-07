@@ -1,0 +1,52 @@
+Some Ideas For Astronomy-Related Projects
+=========================================
+
+These were culled from a list emailed to me by Geoff Mathews
+<[mathewsgeoff@fhda.edu](mailto:mathewsgeoff@fhda.edu)>
+
+* exoplanet exaggerator - read data on known exoplanets and present an
+  exaggerated "by eye" view; this would show the patch of sky with the
+  star and make it visibly flicker (real transits cause changes in
+  brightness at the 0.01% level...), and for systems with a measured
+  doppler shift, exaggerated blue and redshift of the star.  There are a
+  few modified versions of this I can think of, too - for example, line
+  up several stars side by side for comparison  
+
+* exoplanet simulator - the user has sliders to adjust observed
+  inclination, stellar mass, planet mass, size, and orbital distance,
+  and the simulator generates a lightcurve, velocity curve, , and (if
+  the exaggerator exists) exaggerated view of the star.  Similar to the
+  following two tools, but having the option of seeing the full
+  light-curve over time (not just the simulation of a single transit)
+  and with the radial velocity simulator, having the option of showing
+  an exaggerated wobble of the star
+
+* exoplanet magic zoom view - see a magically zoomed in view of an
+  exoplanet system, both the view from Earth and a "top-down" view with
+  exaggerated stellar wobble.  This would be great to pair with a
+  representation of the lightcurve and velocity curve.  
+
+* spiral galaxy dark matter simulator - make a simple galaxy with stars
+  arranged in a disk with circular orbits, and have an interface for
+  adjusting the dark matter distribution and see the resulting velocity
+  curve
+
+* intermediate complexity atmosphere simulator - pro-tools are too
+  complex for basic teaching, but existing simple models don't include
+  tie-ins to spectroscopy.  It would be great to have a simplified
+  atmosphere model that would allow users to adjust CO2 and H2O levels,
+  see the resulting atmospheric absorption spectrum and temperature
+
+The exoplanet tools were all inspired by:  
+[http://astro.unl.edu/naap/esp/animations/transitSimulator.html](http://astro.unl.edu/naap/esp/animations/transitSimulator.html)  
+[http://astro.unl.edu/naap/esp/animations/radialVelocitySimulator.html](http://astro.unl.edu/naap/esp/animations/radialVelocitySimulator.html)  
+but these lack a few useful aspects and combinations  
+
+If you have any questions about the above, please contact Geoff 
+<[mathewsgeoff@fhda.edu](mailto:mathewsgeoff@fhda.edu)> or myself
+(Grond)
+<[president@cs.foothillstemclubs.org](mailto:president@cs.foothillstemclubs.org)>.
+
+If you want to take on one of these projects, please let Geoff know, and
+make a commit to this file noting that you're working on the project
+(talk to me and I'll give you push access to the repo).
